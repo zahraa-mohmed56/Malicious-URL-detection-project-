@@ -1,0 +1,54 @@
+/* Basic styles for overall structure */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    border: 1px solid #ffffff;
+
+  }
+  
+  .header, .main-content, .footer {
+    padding: 20px;
+  }
+  
+  /* Styling for specific elements */
+  .header {
+    background-color: rgb(26 188 156) !important;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+  
+  .main-content {
+    background-color: #f5f5f5;
+  }
+  
+  .result-container {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .explanation {
+    font-style: italic;
+    margin-top: 10px;
+  }
+  .prediction-box {
+    background-color: #FFF;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ffffff;
+    width: 450px;
+} 
+.Search {
+  background-color: #FFF;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid #ffffff;
+  width: 450px;
+} 

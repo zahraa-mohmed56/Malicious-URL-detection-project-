@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Classification Result</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}"/>
+
+<body>
+  <header class="header">
+    <h1>Your detection</h1>
+    </header>
+
+  <main class="main-content">
+    <section class="result-container">
+      <h2>Your URL Classification:</h2>
+      <p>Prediction: <span id="prediction">{{ prediction }}</span></p>
+      <div class="topnav">
+        <a href="https://www.virustotal.com/gui/home/url/"> scan your url </a>
+
+        <input type="text" placeholder="Search..">
+      </div>
+      <!-- <p class="explanation">Explanation: This category indicates {{ explanation }}</p> -->
+    </section>
+  </main>
+</body>
+
+</html>
